@@ -37,4 +37,24 @@ public class MovingScript : MonoBehaviour
         transform.Translate(-speed,0,0);
     }
     
+    public void DiagonalUpRight()
+    {
+        transform.Translate(speed,speed,0);
+    }
+    
+    public void DiagonalUpLeft()
+    {
+        transform.Translate(-speed,speed,0);
+    }
+    
+    public void DiagonalDownRight()
+    {
+        transform.Translate(speed,-speed,0);
+    }
+    
+    public void DiagonalDownLeft()
+    {
+        transform.Translate(-speed,-speed,0);
+    }
+    
 }
